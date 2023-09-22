@@ -4,9 +4,7 @@ import CalcButton from "./components/CalcButton";
 import { Container } from "postcss";
 import CalcOperations from "./components/CalcOperations";
 
-function handleNumber() {
-  alert("You clicked a number!");
-}
+function handleNumber() {}
 export default function Home() {
   return (
     <main className="flex justify-center content-center">
